@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(to right, blueviolet, brown);
+}
+.login-body {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    width: max-content;
+    display: grid;
+    place-content: center;
+    margin-bottom: 240px;
+    padding: 30px;
+    border-radius: 1rem;
+}

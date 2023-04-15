@@ -1,0 +1,49 @@
+#promo-container {
+    height: 500px;
+    background: linear-gradient(to right, blueviolet, brown);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p-content {
+    color: white;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+#first-button {
+    margin-top: 40px;
+    padding: 10px 8px 10px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-left: 60px;
+}
+#first-button:hover {
+    background-color: aquamarine;
+}
+#p-content p {
+    font-size: xx-large;
+}
+.contenedor-caracteristicas {
+    display: grid;
+    place-items: center;
+    margin-top: 60px;
+}
+.fila {
+    display: flex;
+    column-gap: 5rem;
+}
+.car1 {
+    width: 18rem;
+    background-color: rgb(253, 250, 243);
+    padding: 5px;
+    border-radius: 2rem;
+}
+.car1 p {
+    text-align: justify;
+}
+@media (width < 700px){
+    .fila {
+        display: inherit;
+    }
+}

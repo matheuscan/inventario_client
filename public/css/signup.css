@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to right, blueviolet, brown);
+}
+.signup-body {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    width: max-content;
+    display: grid;
+    place-content: center;
+    margin-bottom: 240px;
+    padding: 30px;
+    border-radius: 1rem;
+}
+.form-field {
+    margin-top: 40px;
+    display: grid;
+    place-content: center;
+}
+input {
+    padding: 20px 5px 20px 5px;
+}
+
